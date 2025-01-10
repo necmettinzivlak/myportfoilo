@@ -38,3 +38,15 @@ next-env.d.ts
 # IDE
 .vscode
 .idea
+
+# Vercel specific
+.vercel
+.env*.local
+.env
+.env.production
+
+# Build output
+.next
+out
+dist
+build

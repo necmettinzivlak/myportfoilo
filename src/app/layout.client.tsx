@@ -15,10 +15,10 @@ export default function RootLayoutClient({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className="scroll-smooth">
-      <body className={`${inter.className} font-sans`}>
+    <html lang="en" suppressHydrationWarning className="scroll-smooth">
+      <body className={`${inter.className} font-sans antialiased`}>
         <Providers>
-          <div className="min-h-screen flex flex-col gap-4">
+          <div className="min-h-screen flex flex-col">
             <Navbar />
             <main className="flex-grow">{children}</main>
             <Footer />
